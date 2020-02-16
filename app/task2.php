@@ -9,6 +9,7 @@ function search_with_prefix($prefix, $strings){
             array_push($result, $str);
         }
     }
+    return $result;
 }
 
 $arr = array("gsfgsdfg","sfgsgsdg","gsfdgsdg","sfgsfg");
