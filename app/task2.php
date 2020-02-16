@@ -14,6 +14,6 @@ function search_with_prefix($prefix, $strings){
 
 $arr = array("gsfgsdfg","sfgsgsdg","gsfdgsdg","sfgsfg");
 
-print(search_with_prefix("gsf", $arr));
+print_r(search_with_prefix("gsf", $arr));
 
 ?>
